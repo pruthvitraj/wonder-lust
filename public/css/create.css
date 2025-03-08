@@ -1,0 +1,62 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#9aa2ff, #fad0c4);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Back Button Styling */
+.back-button {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 80px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+form input[type="text"],
+form button {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}

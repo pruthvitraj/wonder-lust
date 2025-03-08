@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.demo {
+    position: absolute;
+    left: 50px; /* Default: Left side for larger screens */
+    top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: bold; 
+    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+  
+  /* Center the text when screen size is 600px or smaller */
+  @media (max-width: 600px) {
+    .demo {
+      left: 50%; /* Move it to center */
+      top: 50%;
+      transform: translate(-50%, -50%); /* Ensure it's fully centered */
+      text-align: center;
+      width: 80%; /* Optional: Adjust width for better display */
+    }
+  }
+  
+.card{
+    padding: 10;
+    border: none;
+}
+button {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
